@@ -47,3 +47,7 @@
 - To go to a specific branch:
 
        git checkout main
+
+- To merge (first go to the main branch, then put name of the branch to merge with main)
+
+       git merge xxx
