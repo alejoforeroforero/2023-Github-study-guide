@@ -18,3 +18,11 @@
       
        git commit -m 'version 1'
        git commit -m .
+       
+ - Check commits:
+
+       git log --oneline
+       
+ - to navigate between commits:
+ 
+       git reset --hard xxxxxx
