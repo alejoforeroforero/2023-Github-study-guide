@@ -20,4 +20,5 @@ function addNode () {
 
 window.addEventListener('click', ()=>{
     addNode();
+    console.log('hice un cambio')
 })
