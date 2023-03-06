@@ -27,7 +27,11 @@
  
        git reset --hard xxxxxx
        
-- to connect and update a repository online:
+- to connect and update a repository online, just the first time:
 
        git remote add origin https://github.com/xxx xxxx
        git push -u origin master
+       
+- To pudate (afer making changes and creating a commit):
+
+       git push
