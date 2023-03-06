@@ -37,6 +37,7 @@
        git push
 
 - To create a branch:
+
        git branch xxxxx
 
 - To know wich branch we are:
@@ -44,4 +45,5 @@
        git branch
 
 - To go to a specific branch:
+
        git checkout main
