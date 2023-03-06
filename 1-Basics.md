@@ -26,3 +26,8 @@
  - to navigate between commits:
  
        git reset --hard xxxxxx
+       
+- to connect and update a repository online:
+
+       git remote add origin https://github.com/xxx xxxx
+       git push -u origin master
