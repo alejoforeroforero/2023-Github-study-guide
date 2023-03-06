@@ -51,3 +51,7 @@
 - To merge (first go to the main branch, then put name of the branch to merge with main)
 
        git merge xxx
+
+- To delete a branch
+
+       git branch -d xxxx
