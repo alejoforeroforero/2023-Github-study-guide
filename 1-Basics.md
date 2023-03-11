@@ -27,10 +27,6 @@
  
        git reset --hard xxxxxx
        
-- to connect and update a repository online, just the first time:
-
-       git remote add origin https://github.com/xxx xxxx
-       git push -u origin master
        
 - To pudate (afer making changes and creating a commit):
 
@@ -47,6 +43,19 @@
 - To go to a specific branch:
 
        git checkout main
+       
+- To convert main as a HEAD branch and delete Master branch
+
+       git checkout main              
+
+       git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+       
+       git branch -d master
+       
+- to connect and update a repository online, just the first time:
+
+       git remote add origin https://github.com/xxx xxxx
+       git push -u origin master
 
 - To merge (first go to the main branch, then put name of the branch to merge with main)
 
