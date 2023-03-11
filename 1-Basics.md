@@ -1,5 +1,9 @@
       git version
       
+- Clone a git repository from github
+
+       git clone link
+      
 - Inititialize git
 
       git init
